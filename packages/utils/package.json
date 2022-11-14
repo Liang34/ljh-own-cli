@@ -1,6 +1,9 @@
 {
   "name": "@ljh-own-cli/utils",
   "version": "0.0.3",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "> TODO: description",
   "author": "Liang34 <1160685230@qq.com>",
   "homepage": "",
@@ -16,5 +19,5 @@
   "scripts": {
     "test": "node ./__tests__/utils.test.js"
   },
-  "gitHead": "b25d90fe279cf4513dfa842da53e4eb36fbdf9ea"
+  "gitHead": "7eedef6447c917ce1a4ae513706fda7990a09335"
 }
