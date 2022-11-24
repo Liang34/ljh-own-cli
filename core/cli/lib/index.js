@@ -23,7 +23,7 @@ function core() {
         checkRoot();
         checkUserHome();
         checkInputArgs();
-        checkEnv();
+        checkEnv()
     } catch(e) {
         log.error(e.message)
     }
