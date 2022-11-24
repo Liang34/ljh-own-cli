@@ -6,6 +6,8 @@
   },
   "workspaces": [
     "core/*",
+    "commands/*",
+    "models/*",
     "utils/*"
   ],
   "devDependencies": {

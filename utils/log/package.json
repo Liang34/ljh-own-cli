@@ -1,5 +1,5 @@
 {
-  "name": "log",
+  "name": "@ljh-own-cli/log",
   "version": "0.0.6",
   "description": "log",
   "keywords": [
@@ -31,5 +31,6 @@
   },
   "dependencies": {
     "npmlog": "^7.0.1"
-  }
+  },
+  "gitHead": "296d3f4836b763da43c5354e63c30d84372647a2"
 }
