@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://bnpm.byted.org/"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,6 @@
     "axios": "^1.2.0",
     "semver": "^7.3.8",
     "url-join": "^4.0.0"
-  }
+  },
+  "gitHead": "26dc2c65fb9d8e805f5658ac3dbe8a7e7047624f"
 }
