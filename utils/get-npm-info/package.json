@@ -1,0 +1,34 @@
+{
+  "name": "@ljh-own-cli/get-npm-info",
+  "version": "0.0.7",
+  "description": "get-npm-info",
+  "author": "liangjianhui <liangjianhui.189@bytedance.com>",
+  "homepage": "https://github.com/Liang34/ljh-own-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://bnpm.byted.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liang34/ljh-own-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/get-npm-info.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Liang34/ljh-own-cli/issues"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "semver": "^7.3.8",
+    "url-join": "^4.0.0"
+  }
+}

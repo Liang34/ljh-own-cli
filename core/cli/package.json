@@ -28,6 +28,7 @@
   "dependencies": {
     "@ljh-own-cli/log": "file:../../utils/log",
     "@ljh-own-cli/utils": "file:../../utils/utils",
+    "@ljh-own-cli/get-npm-info": "file:../../utils/get-npm-info",
     "colors": "^1.4.0",
     "dedent": "^0.7.0",
     "dotenv": "^16.0.3",

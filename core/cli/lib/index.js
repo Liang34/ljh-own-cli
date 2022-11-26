@@ -24,9 +24,23 @@ function core() {
         checkUserHome();
         checkInputArgs();
         checkEnv()
+        checkGlobalUpdate();
     } catch(e) {
         log.error(e.message)
     }
+}
+async function checkGlobalUpdate() {
+    // 获取当前版本号和模块名
+    const currentVersion = pkg.version;
+    const npmName = pkg.name;
+    // 调用npm Api， 获取所有版本号
+    const { getNpmSemverVersions } = require('@ljh-own-cli/get-npm-info');
+    const lastVersion = await getNpmSemverVersions(currentVersion, npmName)
+    if(lastVersion && semver.gt(lastVersion, currentVersion)) {
+        log.warn(colors.yellow(`请手动更新${npmName}, 当前版本：${currentVersion}, 最新版本${lastVersion}`))
+    }
+    // 提取所有版本号，比对哪些版本号是大于当前版本号
+    // 获取最新的版本号，提示用户更新到该版本
 }
 function checkEnv() {
     const dotenv = require('dotenv');
