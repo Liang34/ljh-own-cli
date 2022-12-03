@@ -1,6 +1,6 @@
 {
   "name": "@ljh-own-cli/core",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "publish a cli",
   "keywords": [
     "cli"
@@ -26,11 +26,11 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@ljh-own-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@ljh-own-cli/log": "file:../../utils/log",
-    "@ljh-own-cli/init": "file:../../commands/init",
-    "@ljh-own-cli/utils": "file:../../utils/utils",
     "@ljh-own-cli/exec": "file:../exec",
+    "@ljh-own-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@ljh-own-cli/init": "file:../../commands/init",
+    "@ljh-own-cli/log": "file:../../utils/log",
+    "@ljh-own-cli/utils": "file:../../utils/utils",
     "colors": "^1.4.0",
     "commander": "^9.4.1",
     "dedent": "^0.7.0",

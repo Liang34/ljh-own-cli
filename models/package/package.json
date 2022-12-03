@@ -1,6 +1,6 @@
 {
   "name": "@ljh-own-cli/package",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "> TODO: description",
   "author": "liangjianhui <liangjianhui.189@bytedance.com>",
   "homepage": "https://github.com/Liang34/ljh-own-cli#readme",
@@ -27,8 +27,8 @@
     "url": "https://github.com/Liang34/ljh-own-cli/issues"
   },
   "dependencies": {
-    "@ljh-own-cli/utils": "file:../../utils/utils",
     "@ljh-own-cli/format-path": "file:../../utils/format-path",
+    "@ljh-own-cli/utils": "file:../../utils/utils",
     "pkg-dir": "4.0.0"
   }
 }

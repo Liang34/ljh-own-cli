@@ -1,6 +1,6 @@
 {
   "name": "@ljh-own-cli/exec",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "> TODO: description",
   "author": "liangjianhui <liangjianhui.189@bytedance.com>",
   "homepage": "https://github.com/Liang34/ljh-own-cli#readme",
@@ -27,8 +27,8 @@
     "url": "https://github.com/Liang34/ljh-own-cli/issues"
   },
   "dependencies": {
-    "@ljh-own-cli/package": "file:../../models/package",
     "@ljh-own-cli/log": "file:../../utils/log",
+    "@ljh-own-cli/package": "file:../../models/package",
     "@ljh-own-cli/utils": "file:../../utils/utils"
   }
 }
