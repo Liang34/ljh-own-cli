@@ -28,7 +28,11 @@
   },
   "dependencies": {
     "@ljh-own-cli/format-path": "file:../../utils/format-path",
+    "@ljh-own-cli/get-npm-info": "file:../../utils/get-npm-info",
     "@ljh-own-cli/utils": "file:../../utils/utils",
+    "fs-extra": "^11.1.0",
+    "npminstall": "^6.6.2",
+    "path-exists": "^4.0.0",
     "pkg-dir": "4.0.0"
   }
 }

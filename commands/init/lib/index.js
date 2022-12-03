@@ -6,7 +6,7 @@ class initCommand extends Command {
 
 
 function init(...argv) {
-    console.log(argv)
+    console.log('init')
     return new initCommand(argv);
 }
 module.exports = init

@@ -2,7 +2,9 @@
 module.exports = {
     getNpmInfo,
     getNpmVersions,
-    getNpmSemverVersions
+    getNpmSemverVersions,
+    getDefaultRegistry,
+    getNpmLatestVersion
 };
 const urlJoin = require('url-join');
 const axios = require('axios');
@@ -43,6 +45,13 @@ async function getNpmSemverVersions(baseVersion, npmName, registry) {
         return newVersions[0];
     }
     return null
+}
+async function getNpmLatestVersion(npmName, registry) {
+    let versions = await getNpmVersions(npmName, registry);
+    if(versions) {
+        return versions.sort((a, b) => semver.gt(b, a))[0]
+    }
+    return null;
 }
 function getDefaultRegistry(isOriginal = false) {
     return isOriginal ? 'https://registry.npmjs.org/' : 'https://registry.npmmirror.com/'
