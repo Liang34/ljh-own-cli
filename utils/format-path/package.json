@@ -1,0 +1,29 @@
+{
+  "name": "@ljh-own-cli/format-path",
+  "version": "0.0.9",
+  "description": "> TODO: description",
+  "author": "liangjianhui <liangjianhui.189@bytedance.com>",
+  "homepage": "https://github.com/Liang34/ljh-own-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liang34/ljh-own-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@ljh-own-cli/format-path.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Liang34/ljh-own-cli/issues"
+  }
+}
