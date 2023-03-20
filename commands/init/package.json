@@ -27,6 +27,7 @@
     "url": "https://github.com/Liang34/ljh-own-cli/issues"
   },
   "dependencies": {
-    "@ljh-own-cli/command": "file:../../models/command"
+    "@ljh-own-cli/command": "file:../../models/command",
+    "@ljh-own-cli/log": "file: ../../utils/log"
   }
 }

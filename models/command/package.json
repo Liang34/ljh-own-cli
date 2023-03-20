@@ -29,6 +29,7 @@
   "dependencies": {
     "@ljh-own-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
-    "semver": "^7.3.8"
+    "semver": "^7.3.8",
+    "@ljh-own-cli/utils": "file: ../../utils/utils"
   }
 }

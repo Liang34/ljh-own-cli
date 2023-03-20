@@ -112,6 +112,6 @@ class Package {
             return _getRootFile(this.targetPath)
         }
     }
-
+    
 }
 module.exports = Package;
